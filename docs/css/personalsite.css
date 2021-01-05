@@ -418,6 +418,10 @@
   font-family: "BarlowSemiCondensed-Regular";
 }
 
+.secFont {
+  font-family: "BarlowSemiCondensed-ExtraBold";
+}
+
 .boldFont {
   font-weight: 700;
 }

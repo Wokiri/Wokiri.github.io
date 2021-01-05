@@ -50,6 +50,12 @@
                 </nav>
             </div>
 
+            <div class="container">
+                <h1 class="text-info font-weight-bold text-center secFont">
+                    Joe4Dev and Spatial Solutions
+                </h1>
+            </div>
+
 
             <div id="servicesDiv" class="container p-md-4 p-sm-2 d-flex flex-column justify-content-center text-center">
 
@@ -178,7 +184,7 @@
 
             <div id="form_inspirationDiv" class="container-fluid">
                 <div id="formDiv" class="container pb-4 rounded-bottom">
-                    <form>
+                    <form id="inquiryForm">
                         <p><label for="client_name">Client name:</label>
                             <input type="text" name="client_name" class="form-control" id="client_name" placeholder="Your name" required="">
                         </p>
@@ -279,48 +285,13 @@
 
 
                     <div class="d-flex justify-content-center m-4">
-                        <button class="btn btn-info pt-2 pb-2 pl-5 pr-5" data-toggle="modal" data-target="#formModal">
-                            Yes Joe, kindly bring the inquiry form!
-                        </button>
+                        <a href="#inquiryForm" class="nav-link">
+                            <button class="btn btn-info pt-2 pb-2 pl-5 pr-5">
+                                Yes Joe, take me to the inquiry form!
+                            </button>
+                        </a>
                     </div>
 
-                    <!-- The form Modal -->
-                    <div class="modal fade primFont" id="formModal">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content darkPrimaryColor">
-
-                                <!-- Modal Header -->
-                                <div class="modal-header">
-                                    <h4 class="modal-title">REACH OUT</h4>
-                                    <button type="button" class="close" data-dismiss="modal">×</button>
-                                </div>
-
-                                <!-- Modal body -->
-                                <div class="modal-body">
-                                    <form>
-                                        <p><label for="client_name">Client name:</label>
-                                            <input type="text" name="client_name" class="form-control" id="client_name" placeholder="Your name" required="">
-                                        </p>
-                                        <p><label for="client_email">Client email:</label>
-                                            <input type="text" name="client_email" class="form-control" id="client_email" placeholder="Your Email addres" required="">
-                                        </p>
-                                        <p><label for="client_message">Client message:</label>
-                                            <textarea name="client_message" cols="40" rows="10" class="form-control" id="client_message" placeholder="Your inquiry" required="">Hi Joe, there is a project I would like to discuss with you.</textarea>
-                                        </p>
-                                        <div class="d-flex justify-content-center">
-                                            <input type="button" id="submitForm" value="Inquire" class="btn btn-light pt-2 pb-2 pl-5 pr-5">
-                                        </div>
-                                    </form>
-                                </div>
-
-                                <!-- Modal footer -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close Form</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
