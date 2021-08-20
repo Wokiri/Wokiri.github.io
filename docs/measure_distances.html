@@ -1,0 +1,87 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/summit_gis.css" />
+
+
+    
+<link rel="stylesheet" href="css/distance_measurements_style.css">
+<link rel="stylesheet" href="css/ol_map_style.css" />
+
+    
+    
+    
+    <title>Measure Distances | Summit GIS</title>
+    
+    
+  </head>
+
+  <body>
+    
+
+<div class="container-fluid">
+  <div class="container mt-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="flex-sm-fill text-sm-center nav-link home-links" href="./index.html">SUMMIT GIS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse font-montserrat-light" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link home-links" href="./web_maps.html">WEB MAPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">BLOGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">RESOURCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">DEVELOPERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">ACCOUNTS</a>
+                    </li>
+                </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search our Databases" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+</div>
+  <p class="text-prim-color text-center h2 my-4 font-barlow-semibold">
+    Distance Measurements
+  </p>
+
+  <div class="container shadow rounded my-0 position-relative h-75">
+    <div id="measure_distances_map" class="w-100 h-100"></div>
+    <div class="position-absolute p-4 top-0 end-0 w-25 h-25 custom_bg-light mt-2 me-4 border border-success rounded">
+      <div class="">
+        <div class="bg-white mb-4">
+          <p class="text-center h6 pb-0 pt-2 mb-0">line length</p>
+          <p class="text-center h3 p-0 mt-0 text-success" id="results_display" style="min-height: 45px;"></p>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 end-0 m-2">
+        <button id="removePrevDrawings_btn" class="btn btn-outline-success">Clear Map</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="./js/measure_distances.0fa7c79e9f5135bf3b42.js"></script>
+
+
+    
+    <script src="js/bootstrap.bundle.js"></script>
+  
+
+</body></html>
