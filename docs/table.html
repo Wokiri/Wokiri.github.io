@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="90050fad-a463-4105-89ec-179aacaf2d1d" data-root-id="1001"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1002">
+          {"8ccda409-7ced-46c2-81fc-50ea74fe2a93":{"defs":[],"roots":{"references":[{"attributes":{"height":800,"text":"\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;div class=\"d-flex justify-content-center\"&gt;\n    &lt;div class=\"shadow-sm table-responsive border my-sm-5 p-4\" style=\"max-height: 80vh;\"&gt;\n        &lt;p class=\"text-center lead\" style=\"color:#660066;font-weight:bold;\"&gt;CREATE PROJECT RESULTS FOR 2021&lt;/p&gt;\n        &lt;table border=\"1\" class=\"dataframe table table-hover\"&gt;\n  &lt;thead&gt;\n    &lt;tr style=\"text-align: right;\"&gt;\n      &lt;th&gt;&lt;/th&gt;\n      &lt;th&gt;Number Targeted&lt;/th&gt;\n      &lt;th&gt;Number Achieved&lt;/th&gt;\n      &lt;th&gt;PC Achievement&lt;/th&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Activity&lt;/th&gt;\n      &lt;th&gt;&lt;/th&gt;\n      &lt;th&gt;&lt;/th&gt;\n      &lt;th&gt;&lt;/th&gt;\n    &lt;/tr&gt;\n  &lt;/thead&gt;\n  &lt;tbody&gt;\n    &lt;tr&gt;\n      &lt;th&gt;HH using micro-solar lamps&lt;/th&gt;\n      &lt;td&gt;313&lt;/td&gt;\n      &lt;td&gt;306&lt;/td&gt;\n      &lt;td&gt;102.29&lt;/td&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Soil and Water Conservation&lt;/th&gt;\n      &lt;td&gt;313&lt;/td&gt;\n      &lt;td&gt;322&lt;/td&gt;\n      &lt;td&gt;97.20&lt;/td&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Afforestration and Reafforestration&lt;/th&gt;\n      &lt;td&gt;150&lt;/td&gt;\n      &lt;td&gt;153&lt;/td&gt;\n      &lt;td&gt;98.04&lt;/td&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Improved cook stove&lt;/th&gt;\n      &lt;td&gt;313&lt;/td&gt;\n      &lt;td&gt;304&lt;/td&gt;\n      &lt;td&gt;102.96&lt;/td&gt;\n    &lt;/tr&gt;\n  &lt;/tbody&gt;\n&lt;/table&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n    \n&lt;/body&gt;\n&lt;/html&gt;\n\n    ","width":900},"id":"1001","type":"Div"}],"root_ids":["1001"]},"title":"Bokeh Application","version":"2.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1002').textContent;
+                  const render_items = [{"docid":"8ccda409-7ced-46c2-81fc-50ea74fe2a93","root_ids":["1001"],"roots":{"1001":"90050fad-a463-4105-89ec-179aacaf2d1d"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
