@@ -1,86 +1,23 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Joe | Information Systems $ Management Expert</title><script defer="defer" src="js/index_e5860364bedebbfbf239.js"></script><script defer="defer" src="js/bootstrap_e5860364bedebbfbf239.js"></script><script defer="defer" src="js/bootstrap_icons_e5860364bedebbfbf239.js"></script><script defer="defer" src="js/joe_style_e5860364bedebbfbf239.js"></script><link href="css/bootstrap.css" rel="stylesheet"><link href="css/bootstrap_icons.css" rel="stylesheet"><link href="css/joe_style.css" rel="stylesheet"></head><body><div id="intro_banner" class="p-4 text-white"><p class="fs-1 text-center font-montserrat-light">JOE</p><p class="text-center font-montserrat-light">Information Systems Management & Software Technology Expert</p></div><a href="javascript:void(0)" id="close_menu">&times;</a><div id="main_top_nav" class="font-montserrat-medium"><a class="main_top_nav_link" href="https://joegis.netlify.app/"><i class="bi bi-house"></i>HOME</a> <a class="main_top_nav_link" href="./coming_soon.html"><i class="bi bi-briefcase"></i>SERVICES</a> <a class="main_top_nav_link" href="./coming_soon.html"><i class="bi bi-geo-alt"></i>GEOSPATIAL</a> <a class="main_top_nav_link" href="./coming_soon.html"><i class="bi bi-globe2"></i>TECH INFO</a> <a class="main_top_nav_link" href="./coming_soon.html"><i class="bi bi-inboxes"></i>REACH OUT</a></div><p id="open_menu" class="rounded-end border border-dark text-center my-1 p-1">&#9776;</p><div id="intro_message" class="p-4 lead fs-2"><p class="text-center font-montserrat-medium"><strong>Spatial Data Analysis & Software</strong></p></div><div id="main_page_section" class="font-montserrat-light my-4 p-4"><object id="continents_div" type="image/svg+xml"></object></div><div id="what_i_do" class="container-sm bg-white fs-3 rounded-3 p-3 font-barlow-light"><p class="text-center mb-4 fw-bold">Offering Solutions</p><p><i class="bi bi-geo-alt"></i> We work with businesses, academia, organizations, governments and individuals to assist with projects relying on geospatial technology, data analysis and their subsequent visualizations</p><p><i class="bi bi-geo-alt"></i> With unique specialties in design and making of location-based web and desktop apps and ensuring their efficient functioning</p><p><i class="bi bi-geo-alt"></i> Partner with us for highly customized applications meeting your business, organizational, academic and personal needs</p><p><i class="bi bi-geo-alt"></i> With a solid comprehension in website design & development, we create pragmatic, user intuitive websites, both static and database driven for various uses</p><p><i class="bi bi-geo-alt"></i> <span class="fs-4 fw-bold">Our strong passion for Geospatial Engineering</span> (and reasonably effective training on the same) plays a part in inspiring us towards an active pursuit of current, industry-relevant tech skills</p><p><i class="bi bi-geo-alt"></i> It's Data & Software for us!</p></div><p class="lead text-center p-5 font-montserrat-medium">for work, consultations... <a class="" href="mailto:wokirijoe@gmail.com">reach out</a></p><footer></footer><script>const svgHolder = document.querySelector('object#continents_div');
+        svgHolder.addEventListener('load', () => {
+            const svgDocument = svgHolder.contentDocument;
+            const style = svgDocument.createElementNS("http://www.w3.org/2000/svg", "style");
+            style.textContent = `
+            #World_Continents path {
+                
+            }
+            `
+            const svgElem = svgDocument.querySelector('svg');
+            svgElem.insertBefore(style, svgElem.firstChild);
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/summit_gis.css" />
-
-    
-    
-    <title>Home | Summit GIS</title>
-    
-    
-  </head>
-
-  <body>
-    
-
-<div class="container-fluid">
-    <p class="h1 text-center font-barlow-semibold py-5">
-        Summit Web GIS
-    </p>
-    
-    <div class="container mt-2">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="flex-sm-fill text-sm-center nav-link home-links" href="#">SUMMIT GIS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse font-montserrat-light" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="flex-sm-fill text-sm-center nav-link home-links" href="./web_maps.html">WEB MAPS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">BLOGS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">RESOURCES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">DEVELOPERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="flex-sm-fill text-sm-center nav-link home-links" href="./coming_soon.html">ACCOUNTS</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search our Databases" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            </div>
-        </div>
-    </nav>
-</div>
-
-    <div class="container-md text-center">
-        <div id="main_page_intro" class="bg-white-tiles my-5 py-5 rounded-3">
-            <p class="lead fs-4 font-montserrat-light">
-                At the very core we do GIS!<br>working with spatial data-- manipulating,
-                organizing, analyzing and visualizing such are our specialties
-            </p>
-    
-            <p class="h4">
-                SUMMIT WEB GIS
-            </p>
-    
-            <p class="lead fs-4 font-montserrat-light">
-                the hub of online GIS Utilities &#38 related consumables
-            </p>
-        </div>
-    </div>
-    
-</div>
-
-
-
-
-
-    
-    <script src="js/bootstrap.bundle.js"></script>
-  </body>
-</html>
+            const path = svgElem.querySelectorAll("path");
+            for (let item of path) {
+                
+                item.addEventListener('mouseover', ()=>{
+                    let item_name = item.getAttributeNS(null, 'data-name');
+                    console.log()
+                })
+            }
+            
+            
+        })</script></body></html>
